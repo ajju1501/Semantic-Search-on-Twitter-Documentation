@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "query": "pagination",
+  "timestamp": "2025-11-17T11:54:19.041450",
+  "total_results": 3,
+  "top_k_requested": 3,
+  "results": [
+    {
+      "rank": 1,
+      "similarity": 0.3686,
+      "distance": 1.713,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 46,
+      "chunk": "pecified comma-separated list of IDs. You can request up to 100 Spaces in a single request\n\nEndpoint: Spaces/Spaces lookup/Lookup Spaces created by one or more users\nMethod: GET\nURL: https://api.twitt..."
+    },
+    {
+      "rank": 2,
+      "similarity": 0.3641,
+      "distance": 1.7464,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 9,
+      "chunk": "e](https://developer.twitter.com/en/docs/twitter-api/users/follows/api-reference/get-users-id-followers) for this endpoint.\n\nEndpoint: Follows/Users a user ID is following\nMethod: GET\nURL: https://api..."
+    },
+    {
+      "rank": 3,
+      "similarity": 0.363,
+      "distance": 1.7549,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 38,
+      "chunk": "\n\nEndpoint: Tweet Counts/Recent Tweet counts\nMethod: GET\nURL: https://api.twitter.com/2/tweets/counts/recent?query=\nDescription: Search for public Tweets created in the last 7 days.\n\nFor full details,..."
+    }
+  ],
+  "stats": {
+    "total_chunks_indexed": 49,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "query": "user followers",
+  "timestamp": "2025-11-17T11:54:19.023280",
+  "total_results": 3,
+  "top_k_requested": 3,
+  "results": [
+    {
+      "rank": 1,
+      "similarity": 0.5468,
+      "distance": 0.8288,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 8,
+      "chunk": "pecified by username. \n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs/twitter-api/users/lookup/api-reference/get-users-by) for this endpoint.\n\nEndpoint: Follows/Follo..."
+    },
+    {
+      "rank": 2,
+      "similarity": 0.5194,
+      "distance": 0.9252,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 9,
+      "chunk": "e](https://developer.twitter.com/en/docs/twitter-api/users/follows/api-reference/get-users-id-followers) for this endpoint.\n\nEndpoint: Follows/Users a user ID is following\nMethod: GET\nURL: https://api..."
+    },
+    {
+      "rank": 3,
+      "similarity": 0.487,
+      "distance": 1.0533,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 10,
+      "chunk": "/users/follows/api-reference/get-users-id-following) for this endpoint.\n\nEndpoint: Follows/Follow a user ID\nMethod: POST\nURL: https://api.twitter.com/2/users/:id/following\nDescription: Allows a user I..."
+    }
+  ],
+  "stats": {
+    "total_chunks_indexed": 49,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  }
+}

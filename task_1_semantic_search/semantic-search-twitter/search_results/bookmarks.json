@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "query": "bookmarks",
+  "timestamp": "2025-11-17T11:54:19.050646",
+  "total_results": 3,
+  "top_k_requested": 3,
+  "results": [
+    {
+      "rank": 1,
+      "similarity": 0.4025,
+      "distance": 1.4843,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 15,
+      "chunk": "ocs/twitter-api/tweets/likes/api-reference/post-users-user_id-likes) for this endpoint.\n\nEndpoint: Likes/Liked Tweets\nMethod: GET\nURL: https://api.twitter.com/2/users/:id/liked_tweets\nDescription: Ret..."
+    },
+    {
+      "rank": 2,
+      "similarity": 0.3998,
+      "distance": 1.5015,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 26,
+      "chunk": "twitter-api/lists/manage-lists/api-reference/post-lists-id-members) for this endpoint.\n\nEndpoint: Lists/Follow a list\nMethod: POST\nURL: https://api.twitter.com/2/users/:id/followed_lists\nDescription: ..."
+    },
+    {
+      "rank": 3,
+      "similarity": 0.3993,
+      "distance": 1.5042,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 16,
+      "chunk": "liked_tweets) for this endpoint.\n\nEndpoint: Likes/Liking users\nMethod: GET\nURL: https://api.twitter.com/2/tweets/:id/liking_users\nDescription: Returns a list of users who have liked a specified Tweet ..."
+    }
+  ],
+  "stats": {
+    "total_chunks_indexed": 49,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  }
+}

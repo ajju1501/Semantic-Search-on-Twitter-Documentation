@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "query": "how to authenticate",
+  "timestamp": "2025-11-17T11:54:19.003852",
+  "total_results": 3,
+  "top_k_requested": 3,
+  "results": [
+    {
+      "rank": 1,
+      "similarity": 0.394,
+      "distance": 1.538,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 27,
+      "chunk": "llowed-lists) for this endpoint.\n\nEndpoint: Lists/Pin a list\nMethod: POST\nURL: https://api.twitter.com/2/users/:id/pinned_lists\nDescription: Allows the authenticated user to pin a specified List.\n\nFor..."
+    },
+    {
+      "rank": 2,
+      "similarity": 0.391,
+      "distance": 1.5574,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 1,
+      "chunk": "/t.co/twitter-api-postman) and click `Run in Postman`.\n\n### Manual install\n\nYou can also download this Collection from a GitHub repo here: https://github.com/twitterdev/postman-twitter-api\n\n## Environ..."
+    },
+    {
+      "rank": 3,
+      "similarity": 0.3906,
+      "distance": 1.5603,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 29,
+      "chunk": "ption: Allows the authenticated user to remove a member from a List they own.\n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs/twitter-api/lists/manage-lists/api-refere..."
+    }
+  ],
+  "stats": {
+    "total_chunks_indexed": 49,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  }
+}

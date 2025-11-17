@@ -1,0 +1,47 @@
+{
+  "query": "How do I fetch tweets with expansions?",
+  "top_k": 5,
+  "total_results": 5,
+  "results": [
+    {
+      "rank": 1,
+      "similarity": 0.5474,
+      "distance": 0.8268,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 36,
+      "chunk": "ch\nMethod: GET\nURL: https://api.twitter.com/2/tweets/search/recent?query=\nDescription: Search for public Tweets created in the last 7 days.\n\nFor full details, see the [API reference](https://developer..."
+    },
+    {
+      "rank": 2,
+      "similarity": 0.5389,
+      "distance": 0.8557,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 4,
+      "chunk": "ce](https://developer.twitter.com/en/docs/twitter-api/tweets/lookup/api-reference/get-tweets-id) for this endpoint.\n\nEndpoint: Tweet Lookup/Multiple Tweets\nMethod: GET\nURL: https://api.twitter.com/2/t..."
+    },
+    {
+      "rank": 3,
+      "similarity": 0.5354,
+      "distance": 0.8677,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 47,
+      "chunk": "arch Spaces by title\nMethod: GET\nURL: https://api.twitter.com/2/spaces/search?query=&state=live&space.fields=&expansions=&user.fields\nDescription: This endpoint returns Spaces matching the specified k..."
+    },
+    {
+      "rank": 4,
+      "similarity": 0.5337,
+      "distance": 0.8737,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 39,
+      "chunk": "thod: GET\nURL: https://api.twitter.com/2/tweets/counts/all?query=\nDescription: Search across the complete history of public Tweets matching a search query; since the first Tweet was created in March 2..."
+    },
+    {
+      "rank": 5,
+      "similarity": 0.5337,
+      "distance": 0.8738,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 5,
+      "chunk": "pi/tweets/lookup/api-reference/get-tweets) for this endpoint.\n\nEndpoint: User Lookup/User by ID\nMethod: GET\nURL: https://api.twitter.com/2/users/:id\nDescription: This endpoint returns details about a ..."
+    }
+  ]
+}

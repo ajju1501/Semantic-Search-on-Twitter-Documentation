@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "query": "rate limits",
+  "timestamp": "2025-11-17T11:54:19.031917",
+  "total_results": 3,
+  "top_k_requested": 3,
+  "results": [
+    {
+      "rank": 1,
+      "similarity": 0.3723,
+      "distance": 1.6862,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 12,
+      "chunk": " ID\nMethod: POST\nURL: https://api.twitter.com/2/users/:id/blocking\nDescription: Allows a user ID to block another user.\n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs..."
+    },
+    {
+      "rank": 2,
+      "similarity": 0.3665,
+      "distance": 1.7283,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 13,
+      "chunk": "ns a list of users who are blocked by the specified user ID.\n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs/twitter-api/users/blocks/api-reference/get-users-blocking)..."
+    },
+    {
+      "rank": 3,
+      "similarity": 0.3607,
+      "distance": 1.7725,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 14,
+      "chunk": "er.\n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs/twitter-api/users/blocks/api-reference/delete-users-user_id-blocking) for this endpoint.\n\nEndpoint: Likes/Like a Tw..."
+    }
+  ],
+  "stats": {
+    "total_chunks_indexed": 49,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  }
+}

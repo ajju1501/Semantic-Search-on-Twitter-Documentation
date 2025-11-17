@@ -1,0 +1,241 @@
+{
+  "timestamp": "2025-11-17T11:54:18.961398",
+  "search_engine_stats": {
+    "total_chunks": 49,
+    "index_size": 49,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dim": 384,
+    "index_exists": true,
+    "data_directory": "data/raw_docs"
+  },
+  "queries": [
+    {
+      "success": true,
+      "query": "how to authenticate",
+      "timestamp": "2025-11-17T11:54:19.003852",
+      "total_results": 3,
+      "top_k_requested": 3,
+      "results": [
+        {
+          "rank": 1,
+          "similarity": 0.394,
+          "distance": 1.538,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 27,
+          "chunk": "llowed-lists) for this endpoint.\n\nEndpoint: Lists/Pin a list\nMethod: POST\nURL: https://api.twitter.com/2/users/:id/pinned_lists\nDescription: Allows the authenticated user to pin a specified List.\n\nFor..."
+        },
+        {
+          "rank": 2,
+          "similarity": 0.391,
+          "distance": 1.5574,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 1,
+          "chunk": "/t.co/twitter-api-postman) and click `Run in Postman`.\n\n### Manual install\n\nYou can also download this Collection from a GitHub repo here: https://github.com/twitterdev/postman-twitter-api\n\n## Environ..."
+        },
+        {
+          "rank": 3,
+          "similarity": 0.3906,
+          "distance": 1.5603,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 29,
+          "chunk": "ption: Allows the authenticated user to remove a member from a List they own.\n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs/twitter-api/lists/manage-lists/api-refere..."
+        }
+      ],
+      "stats": {
+        "total_chunks_indexed": 49,
+        "embedding_model": "all-MiniLM-L6-v2",
+        "embedding_dimension": 384
+      }
+    },
+    {
+      "success": true,
+      "query": "search tweets",
+      "timestamp": "2025-11-17T11:54:19.013592",
+      "total_results": 3,
+      "top_k_requested": 3,
+      "results": [
+        {
+          "rank": 1,
+          "similarity": 0.6613,
+          "distance": 0.5122,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 36,
+          "chunk": "ch\nMethod: GET\nURL: https://api.twitter.com/2/tweets/search/recent?query=\nDescription: Search for public Tweets created in the last 7 days.\n\nFor full details, see the [API reference](https://developer..."
+        },
+        {
+          "rank": 2,
+          "similarity": 0.6576,
+          "distance": 0.5208,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 37,
+          "chunk": "/search/all?query=\nDescription: Search across the complete history of public Tweets matching a search query; since the first Tweet was created in March 2006.\n\nFor full details, see the [API reference]..."
+        },
+        {
+          "rank": 3,
+          "similarity": 0.6523,
+          "distance": 0.5331,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 39,
+          "chunk": "thod: GET\nURL: https://api.twitter.com/2/tweets/counts/all?query=\nDescription: Search across the complete history of public Tweets matching a search query; since the first Tweet was created in March 2..."
+        }
+      ],
+      "stats": {
+        "total_chunks_indexed": 49,
+        "embedding_model": "all-MiniLM-L6-v2",
+        "embedding_dimension": 384
+      }
+    },
+    {
+      "success": true,
+      "query": "user followers",
+      "timestamp": "2025-11-17T11:54:19.023280",
+      "total_results": 3,
+      "top_k_requested": 3,
+      "results": [
+        {
+          "rank": 1,
+          "similarity": 0.5468,
+          "distance": 0.8288,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 8,
+          "chunk": "pecified by username. \n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs/twitter-api/users/lookup/api-reference/get-users-by) for this endpoint.\n\nEndpoint: Follows/Follo..."
+        },
+        {
+          "rank": 2,
+          "similarity": 0.5194,
+          "distance": 0.9252,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 9,
+          "chunk": "e](https://developer.twitter.com/en/docs/twitter-api/users/follows/api-reference/get-users-id-followers) for this endpoint.\n\nEndpoint: Follows/Users a user ID is following\nMethod: GET\nURL: https://api..."
+        },
+        {
+          "rank": 3,
+          "similarity": 0.487,
+          "distance": 1.0533,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 10,
+          "chunk": "/users/follows/api-reference/get-users-id-following) for this endpoint.\n\nEndpoint: Follows/Follow a user ID\nMethod: POST\nURL: https://api.twitter.com/2/users/:id/following\nDescription: Allows a user I..."
+        }
+      ],
+      "stats": {
+        "total_chunks_indexed": 49,
+        "embedding_model": "all-MiniLM-L6-v2",
+        "embedding_dimension": 384
+      }
+    },
+    {
+      "success": true,
+      "query": "rate limits",
+      "timestamp": "2025-11-17T11:54:19.031917",
+      "total_results": 3,
+      "top_k_requested": 3,
+      "results": [
+        {
+          "rank": 1,
+          "similarity": 0.3723,
+          "distance": 1.6862,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 12,
+          "chunk": " ID\nMethod: POST\nURL: https://api.twitter.com/2/users/:id/blocking\nDescription: Allows a user ID to block another user.\n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs..."
+        },
+        {
+          "rank": 2,
+          "similarity": 0.3665,
+          "distance": 1.7283,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 13,
+          "chunk": "ns a list of users who are blocked by the specified user ID.\n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs/twitter-api/users/blocks/api-reference/get-users-blocking)..."
+        },
+        {
+          "rank": 3,
+          "similarity": 0.3607,
+          "distance": 1.7725,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 14,
+          "chunk": "er.\n\nFor full details, see the [API reference](https://developer.twitter.com/en/docs/twitter-api/users/blocks/api-reference/delete-users-user_id-blocking) for this endpoint.\n\nEndpoint: Likes/Like a Tw..."
+        }
+      ],
+      "stats": {
+        "total_chunks_indexed": 49,
+        "embedding_model": "all-MiniLM-L6-v2",
+        "embedding_dimension": 384
+      }
+    },
+    {
+      "success": true,
+      "query": "pagination",
+      "timestamp": "2025-11-17T11:54:19.041450",
+      "total_results": 3,
+      "top_k_requested": 3,
+      "results": [
+        {
+          "rank": 1,
+          "similarity": 0.3686,
+          "distance": 1.713,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 46,
+          "chunk": "pecified comma-separated list of IDs. You can request up to 100 Spaces in a single request\n\nEndpoint: Spaces/Spaces lookup/Lookup Spaces created by one or more users\nMethod: GET\nURL: https://api.twitt..."
+        },
+        {
+          "rank": 2,
+          "similarity": 0.3641,
+          "distance": 1.7464,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 9,
+          "chunk": "e](https://developer.twitter.com/en/docs/twitter-api/users/follows/api-reference/get-users-id-followers) for this endpoint.\n\nEndpoint: Follows/Users a user ID is following\nMethod: GET\nURL: https://api..."
+        },
+        {
+          "rank": 3,
+          "similarity": 0.363,
+          "distance": 1.7549,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 38,
+          "chunk": "\n\nEndpoint: Tweet Counts/Recent Tweet counts\nMethod: GET\nURL: https://api.twitter.com/2/tweets/counts/recent?query=\nDescription: Search for public Tweets created in the last 7 days.\n\nFor full details,..."
+        }
+      ],
+      "stats": {
+        "total_chunks_indexed": 49,
+        "embedding_model": "all-MiniLM-L6-v2",
+        "embedding_dimension": 384
+      }
+    },
+    {
+      "success": true,
+      "query": "bookmarks",
+      "timestamp": "2025-11-17T11:54:19.050646",
+      "total_results": 3,
+      "top_k_requested": 3,
+      "results": [
+        {
+          "rank": 1,
+          "similarity": 0.4025,
+          "distance": 1.4843,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 15,
+          "chunk": "ocs/twitter-api/tweets/likes/api-reference/post-users-user_id-likes) for this endpoint.\n\nEndpoint: Likes/Liked Tweets\nMethod: GET\nURL: https://api.twitter.com/2/users/:id/liked_tweets\nDescription: Ret..."
+        },
+        {
+          "rank": 2,
+          "similarity": 0.3998,
+          "distance": 1.5015,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 26,
+          "chunk": "twitter-api/lists/manage-lists/api-reference/post-lists-id-members) for this endpoint.\n\nEndpoint: Lists/Follow a list\nMethod: POST\nURL: https://api.twitter.com/2/users/:id/followed_lists\nDescription: ..."
+        },
+        {
+          "rank": 3,
+          "similarity": 0.3993,
+          "distance": 1.5042,
+          "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+          "chunk_id": 16,
+          "chunk": "liked_tweets) for this endpoint.\n\nEndpoint: Likes/Liking users\nMethod: GET\nURL: https://api.twitter.com/2/tweets/:id/liking_users\nDescription: Returns a list of users who have liked a specified Tweet ..."
+        }
+      ],
+      "stats": {
+        "total_chunks_indexed": 49,
+        "embedding_model": "all-MiniLM-L6-v2",
+        "embedding_dimension": 384
+      }
+    }
+  ]
+}

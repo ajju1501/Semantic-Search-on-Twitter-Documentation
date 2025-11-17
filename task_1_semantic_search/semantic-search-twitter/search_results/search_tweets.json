@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "query": "search tweets",
+  "timestamp": "2025-11-17T11:54:19.013592",
+  "total_results": 3,
+  "top_k_requested": 3,
+  "results": [
+    {
+      "rank": 1,
+      "similarity": 0.6613,
+      "distance": 0.5122,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 36,
+      "chunk": "ch\nMethod: GET\nURL: https://api.twitter.com/2/tweets/search/recent?query=\nDescription: Search for public Tweets created in the last 7 days.\n\nFor full details, see the [API reference](https://developer..."
+    },
+    {
+      "rank": 2,
+      "similarity": 0.6576,
+      "distance": 0.5208,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 37,
+      "chunk": "/search/all?query=\nDescription: Search across the complete history of public Tweets matching a search query; since the first Tweet was created in March 2006.\n\nFor full details, see the [API reference]..."
+    },
+    {
+      "rank": 3,
+      "similarity": 0.6523,
+      "distance": 0.5331,
+      "source": "data/raw_docs/Twitter API v2.postman_collection.json",
+      "chunk_id": 39,
+      "chunk": "thod: GET\nURL: https://api.twitter.com/2/tweets/counts/all?query=\nDescription: Search across the complete history of public Tweets matching a search query; since the first Tweet was created in March 2..."
+    }
+  ],
+  "stats": {
+    "total_chunks_indexed": 49,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384
+  }
+}
